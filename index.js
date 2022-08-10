@@ -26,7 +26,7 @@ app.get('/api/hello', function (req, res) {
 
 app.get('/api/whoami', (req, res) => {
 
-  let ipaddress = req.ip
+  let ipAddress = req.ip
   let language = '';
   let software = '';
 
